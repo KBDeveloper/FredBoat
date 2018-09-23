@@ -139,9 +139,9 @@ public class EventListenerBoat extends AbstractEventListener {
             return;
         }
 
-        if (event.getAuthor().isBot()) {
-            return;
-        }
+        //if (event.getAuthor().isBot()) {
+        //    return;
+        //}
 
         TextChannel channel = event.getTextChannel(); //never null since we are filtering private messages out above
 
